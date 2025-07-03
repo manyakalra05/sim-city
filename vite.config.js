@@ -1,15 +1,9 @@
 export default {
-  // Set the base directory for GitHub pages
-  base: '/simcity-threejs-clone/',
+  base: './', // ✅ relative base for Netlify (or just omit it)
 
-  // Set the project root directory (relative to the config file)
-  root: './src',
+  publicDir: 'public',
 
-  // Set the directory to serve static files from (relative to the root)
-  publicDir: './public',
-  
-  // Set the build output directory
   build: {
-    outDir: './dist'
+    outDir: 'dist'
   }
 }
