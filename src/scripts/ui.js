@@ -1,7 +1,7 @@
 import { Game } from './game';
 import { SimObject } from './sim/simObject';
-const playIconUrl = new URL('/icons/play-color.png', import.meta.url).href;
-const pauseIconUrl = new URL('/icons/pause-color.png', import.meta.url).href;
+const playIconUrl = '/icons/play-color.png';
+const pauseIconUrl = '/icons/pause-color.png';
 
 export class GameUI {
   /**
